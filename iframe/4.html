@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4.로그인화면</title>
+    <style>
+        * {
+            background-color:rgb(255, 254, 181);
+        }
+        img{
+            width:300px;
+            /* height:60px; */
+        }
+        #two{
+            border:5px dotted salmon;
+            text-align:center;
+        }
+        input[type="text"]  {
+            width:180px;
+            height:60px;
+        }    
+        input[type="submit"] {
+            width:60px;
+            height:30px;
+            background-color:rgb(250, 149, 136);
+            color:floralwhite;
+        }
+        input[type="text"]:hover{
+            background-color:pink;
+        }
+    </style>
+</head>
+<body>
+    <table id="one">
+        <tr>
+            <td><img src="img/Itzy.JPG"></td>
+        </tr>
+    </table>
+    <table id="two" border="1" width="300px" height="200px">
+        <tr>
+            <th colspan="2"> 💗Favorite Member💗</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td> <input type="text" placeholder="  리아, 류진, 예지, 채령, 유나"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="제출"></td>
+        </tr>
+    </table>
+</body>
+</html>
